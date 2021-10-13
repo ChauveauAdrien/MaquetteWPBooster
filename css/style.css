@@ -1,5 +1,29 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
 .chrono{
-    background-color: rgb(255, 255, 255);
+    background-color: chocolate;
+    height: 280px;
+    width: 298px;
     position: absolute;
     right: 65%;
+    transform-origin: 50% 50%;
+    border-radius: 2%;
 }
+.displayed {
+    position: absolute;
+    right: 36%;
+    bottom: 50%;
+}
+.chrono svg {
+    position: absolute;
+    bottom: 25%;
+}
+.total :hover{
+    background-color: cyan;
+}
+
+
+
