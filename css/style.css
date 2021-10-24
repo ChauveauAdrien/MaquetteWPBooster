@@ -25,7 +25,11 @@ body {
     margin-bottom: 50px;
 }
 .legende {
-    margin: 15px;
+    margin: auto;
+    margin-top: 15px;
+}
+.sous-titre {
+    margin-top: 10px;
 }
 .chrono {
     margin-right: 15px;
@@ -44,7 +48,6 @@ body {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     border-radius: 5px;
-    transition: transform 2s;
 }
 .card-front {
     background: white;
@@ -56,18 +59,24 @@ body {
 }
 .card:hover {
     transform: rotateY(180deg);
+    transition: transform 1s;
 }
 .card-robot {
     margin: 0 20px;
 }
 .nuage-gauche {
     position: fixed;
-    left: 280px;
+    left: 110px;
     top: 150px;
 }
 .nuage-droite {
     z-index: -1;
     position: fixed;
-    right: 370px;
+    right: 200px;
     top: 18px;
+}
+.principal-content {
+    align-items: center;
+    padding-top: 10px;
+    border-top: 2px solid black;
 }
